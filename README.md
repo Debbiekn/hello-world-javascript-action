@@ -1,20 +1,23 @@
 # hello-world-javascript-action
-JavaScript Random Message Generator
 
-holiday_destinations
-Codecademy JavaScript - Random Message Generator - Portfolio Project
+This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
-Description:
-The purpose of the project is to design a message generator. Each time you click run (in Visual Studio Code), the messages will print in a random order.
+## Inputs
 
-This has helped me to understand JavaScript Syntax a little better, for Codecademy’s Full Stack Developer course, whilst practicing, creating arrays, string interpolation, and pushing code to GitHub through the terminal.
+### `who-to-greet`
 
-Technologies:
-I have used Visual Studio Code for my Text Editor and Node.js - script.
+**Required** The name of the person to greet. Default `"World"`.
 
-Instructions:
-If you would like to see the first random test - remove the comment marks /* */ on lines number 2 and 6 to see the single element, being tested.
+## Outputs
 
-Next if you would like to see the correct string sentence printed remove the comment marks /* */ on lines 35 and 73
+### `time`
 
-This is a portfolio piece. Thank you
+The time we greeted you.
+
+## Example usage
+
+```yaml
+uses: actions/hello-world-javascript-action@e76147da8e5c81eaf017dede5645551d4b94427b
+with:
+  who-to-greet: 'Mona the Octocat'
+```
