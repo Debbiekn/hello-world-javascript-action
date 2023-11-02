@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(rgb(111, 110, 181), rgb(110, 174, 181), rgb(208, 208, 161));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    margin: none;
+    
+}
+
+h1 {
+    background-image: linear-gradient( rgb(45, 93, 98), rgb(110, 174, 181), rgb(208, 208, 161));
+}
+
